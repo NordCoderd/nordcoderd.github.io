@@ -2,6 +2,7 @@
 layout: default
 title: "About"
 permalink: /about
+tags: ["navbar"]
 ---
 
 Hi there! I'm Dmitrii Protsenko, a proactive developer and tech enthusiast with a broad skill set.  

@@ -20,7 +20,11 @@
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
         <section id="pages">
-            <a href="{{ '/about' | relative_url }}" class="btn">About</a>
+            {% for page in site.pages %}
+            {% if page.tags contains 'navbar' %}
+            <a href="{{ page.url | relative_url }}" class="btn">{{ page.title }}</a>
+            {% endif %}
+            {% endfor %}
         </section>
     </div>
 </header>
