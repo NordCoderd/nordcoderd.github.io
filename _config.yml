@@ -15,4 +15,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
+timezone: Asia/Yerevan
+
 lang: en
