@@ -12,6 +12,5 @@ On that page you could find information about plugin inspections, what problem h
 {% for post in site.pages %}
 {% if post.tags contains 'plugin' %}
 ### [{{ post.title }}]({{ post.url }})
-{{ post.content | strip_html | truncatewords:75 }}
 {% endif %}
 {% endfor %}
