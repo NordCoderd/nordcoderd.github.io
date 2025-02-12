@@ -9,8 +9,18 @@ Welcome to [Infrastructure Security Linter](https://github.com/NordCoderd/infras
 
 On that page you could find information about plugin inspections, what problem he could find and about included features.
 
+## Security
+
 {% for post in site.pages %}
-{% if post.tags contains 'plugin' %}
+{% if post.tags contains 'security' %}
+### [{{ post.title }}]({{ post.url }})
+{% endif %}
+{% endfor %}
+
+## Maintainability
+
+{% for post in site.pages %}
+{% if post.tags contains 'maintainability' %}
 ### [{{ post.title }}]({{ post.url }})
 {% endif %}
 {% endfor %}
