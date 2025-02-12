@@ -1,9 +1,9 @@
 # _config.yml
 
-title: "Dmitrii Protsenko | NordCoderd"
+title: "Dmitry Protsenko | NordCoderd"
 description: "Exploring the Depths of the Tech Ocean"
 author:
-  name: "Dmitrii Protsenko"
+  name: "Dmitry Protsenko"
   email: "tech@protsenko.dev"
 url: "https://protsenko.dev" # the base hostname & protocol for your site
 

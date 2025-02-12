@@ -26,6 +26,7 @@ FROM ubuntu as u1
 FROM ubuntu:latest as u2
 FROM ubuntu:$version as u3
 FROM u3
+USER nobody
 ```
 
 ### Verified code
@@ -33,4 +34,5 @@ FROM u3
 FROM ubuntu:noble as u1
 FROM ubuntu@sha256:72297848456d5d37d1262630108ab308d3e9ec7ed1c3286a32fe09856619a782 as u2
 FROM u2
+USER nobody
 ```

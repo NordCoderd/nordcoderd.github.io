@@ -6,7 +6,7 @@ tags: ["plugin", "security", "docker"]
 ---
 
 ### Problem
-Exposed port {0} is out of range. Ports must be within 0-65535.
+Exposed port is out of range. Ports must be within 0-65535.
 
 ### Description
 The Dockerfile declares an exposed port that falls outside the valid UNIX port range of 0-65535. Using an invalid port number is a misconfiguration that may cause errors during build or runtime.

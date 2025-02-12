@@ -21,7 +21,7 @@ Combine `<package-manager> update` and `<package-manager> install` in one RUN co
 FROM ubuntu:20.04
 USER nobody
 RUN apt-get update
-RUN apt-get install -y build-essential
+RUN apt-get install -y --no-install-recommends build-essential
 ```
 
 ### Verified code

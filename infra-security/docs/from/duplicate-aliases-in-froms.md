@@ -29,5 +29,6 @@ FROM ubuntu:20 as builder-ubuntu
 RUN apt-get update && apt-get install --no-install-recommends -y build-essential
 
 FROM node:14 as builder-node
+USER nobody
 RUN npm install
 ```
