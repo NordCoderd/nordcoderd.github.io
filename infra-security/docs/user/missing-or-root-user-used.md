@@ -2,7 +2,7 @@
 layout: default
 title: "Dockerfile Security: Avoid Default, Root, or Dynamic User for Secure Containers"
 permalink: /infrastructure-security/avoid-default-root-dynamic-user
-tags: ["plugin", "docker", "security"]
+tags: ["plugin", "security", "docker"]
 ---
 
 ### Problem

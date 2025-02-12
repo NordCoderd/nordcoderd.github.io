@@ -6,13 +6,13 @@ tags: ["plugin", "docker", "maintainability"]
 ---
 
 ### Problem
-Different FROM instructions use the same alias. This causes build errors and makes the Dockerfile harder to maintain.
+Different `FROM` instructions use the same alias. This causes build errors and makes the Dockerfile harder to maintain.
 
 ### Description
-Docker requires each FROM instruction alias to be unique. Duplicate aliases lead to conflicts that stop the build process. They also reduce the clarity and maintainability of the Dockerfile.
+Docker requires each `FROM` instruction alias to be unique. Duplicate aliases lead to conflicts that stop the build process. They also reduce the clarity and maintainability of the Dockerfile.
 
 ### Solution
-Assign a unique alias to every FROM instruction. This practice prevents conflicts and improves maintainability.
+Assign a unique alias to every `FROM` instruction. This practice prevents conflicts and improves maintainability.
 
 ### Problematic code
 ```dockerfile

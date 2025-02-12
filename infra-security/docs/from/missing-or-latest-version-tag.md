@@ -2,7 +2,7 @@
 layout: default
 title: "Dockerfile Security: Avoid Missing or 'latest' Version Tags"
 permalink: /infrastructure-security/missing-or-latest-version-tag
-tags: ["plugin", "docker", "security"]
+tags: ["plugin", "security", "docker"]
 ---
 
 ### Problem
