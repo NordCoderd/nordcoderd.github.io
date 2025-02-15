@@ -18,3 +18,5 @@ plugins:
 timezone: Asia/Yerevan
 
 lang: en
+
+future: true
