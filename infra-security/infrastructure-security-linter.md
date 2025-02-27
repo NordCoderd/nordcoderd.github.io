@@ -4,8 +4,10 @@ title: "Infrastructure Security Linter"
 permalink: /infrastructure-security
 tags: ["navbar"]
 ---
-[![JetBrains Plugin Version](https://img.shields.io/jetbrains/plugin/v/dev.protsenko.security-linter)](https://plugins.jetbrains.com/plugin/25413-infrastructure-security)
 [![JetBrains Plugin Downloads](https://img.shields.io/jetbrains/plugin/d/dev.protsenko.security-linter)](https://plugins.jetbrains.com/plugin/25413-infrastructure-security)
+![JetBrains Plugin Rating](https://img.shields.io/jetbrains/plugin/r/rating/dev.protsenko.security-linter)
+[![JetBrains Plugin Version](https://img.shields.io/jetbrains/plugin/v/dev.protsenko.security-linter)](https://plugins.jetbrains.com/plugin/25413-infrastructure-security)
+![GitHub Repo stars](https://img.shields.io/github/stars/NordCoderd/infrastructure-security)
 
 Welcome to [Infrastructure Security Linter](https://github.com/NordCoderd/infrastructure-security) documentation site.
 
