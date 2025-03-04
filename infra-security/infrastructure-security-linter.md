@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Infrastructure Security Linter"
+title: "Infrastructure as Code (IaC) Security Linter"
 permalink: /infrastructure-security
 tags: ["navbar"]
 ---
@@ -9,7 +9,7 @@ tags: ["navbar"]
 [![JetBrains Plugin Version](https://img.shields.io/jetbrains/plugin/v/dev.protsenko.security-linter)](https://plugins.jetbrains.com/plugin/25413-infrastructure-security-linter/versions)
 [![GitHub Repo stars](https://img.shields.io/github/stars/NordCoderd/infrastructure-security)](https://github.com/NordCoderd/infrastructure-security)
 
-Welcome to [Infrastructure Security Linter](https://github.com/NordCoderd/infrastructure-security) documentation site.
+Welcome to [Infrastructure as Code (IaC) Security Linter](https://github.com/NordCoderd/infrastructure-security) documentation site.
 
 You could download plugin from [JetBrains marketplace](https://plugins.jetbrains.com/plugin/25413-infrastructure-security-linter)
 
