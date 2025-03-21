@@ -8,7 +8,18 @@
     {% include head-custom.html %}
 
     {% seo %}
+    <link rel="icon" href="/favicon.ico">
 </head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MJ67SRRRK9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MJ67SRRRK9');
+</script>
 
 <body>
 
@@ -20,7 +31,11 @@
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
         <section id="pages">
-            <a href="{{ '/about' | relative_url }}" class="btn">About</a>
+            {% for page in site.pages %}
+            {% if page.tags contains 'navbar' %}
+            <a href="{{ page.url | relative_url }}" class="btn">{{ page.title }}</a>
+            {% endif %}
+            {% endfor %}
         </section>
     </div>
 </header>

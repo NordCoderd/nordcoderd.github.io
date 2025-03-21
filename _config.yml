@@ -1,11 +1,11 @@
 # _config.yml
 
-title: "Dmitrii Protsenko | NordCoderd"
+title: "Dmitry Protsenko"
 description: "Exploring the Depths of the Tech Ocean"
 author:
-  name: "Dmitrii Protsenko"
+  name: "Dmitry Protsenko"
   email: "tech@protsenko.dev"
-url: "https://nordcoderd.github.io" # the base hostname & protocol for your site
+url: "https://protsenko.dev" # the base hostname & protocol for your site
 
 # GitHub Pages settings
 theme: jekyll-theme-hacker
@@ -15,4 +15,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
+timezone: Asia/Yerevan
+
 lang: en
+
+future: true
