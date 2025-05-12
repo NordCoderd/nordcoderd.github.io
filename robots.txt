@@ -1,0 +1,3 @@
+# robots.txt — block all search engines
+User-agent: *
+Disallow: /
